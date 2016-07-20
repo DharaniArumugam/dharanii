@@ -8,14 +8,12 @@ public class num {
 		    int a;
 		    Scanner in=new Scanner(System.in);
 		    a=in.nextInt();
-		    if(a>0){
-		      System.out.println(a+"is positive");
+		    if(a%2==0){
+		      System.out.println(a+"is even");
 		    }
-		    else if(a<0){
-		      System.out.println(a+"is negative");
-		    }
+		   
 		    else{
-		      System.out.println(a+"is zero");
+		      System.out.println(a+"is not evem");
 		    }
 		    
 		  }
